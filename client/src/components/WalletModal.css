@@ -1,0 +1,103 @@
+/* Add this to your App.css or a new CSS file */
+.wallet-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .wallet-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .wallet-content h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .wallet-content p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  .wallet-content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .wallet-content button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .wallet-content button:first-of-type {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .wallet-content button:first-of-type:hover {
+    background-color: #218838;
+  }
+  
+  .wallet-content button:nth-of-type(2) {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .wallet-content button:nth-of-type(2):hover {
+    background-color: #c82333;
+  }
+  
+  .wallet-content button:last-of-type {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .wallet-content button:last-of-type:hover {
+    background-color: #0056b3;
+  }
+  
+  .open-wallet-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .open-wallet-btn.on-cart-page {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transform: none;
+  }
+  
+  .open-wallet-btn:hover {
+    background-color: #0056b3;
+  }
+  
